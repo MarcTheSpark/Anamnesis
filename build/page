@@ -1,0 +1,8 @@
+#(set! paper-alist (cons '("size" . (cons (* width in) (* height in))) paper-alist))
+\paper {
+  #(set-paper-size "size")
+  left-margin = #(* margin in)
+  right-margin = #(* margin in)
+  bottom-margin = #(* bottommargin in)
+}
+#(set-global-staff-size staff)
