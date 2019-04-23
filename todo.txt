@@ -1,0 +1,5 @@
+- make sure all parts have all fermatas; turn of hide empty staves to do this
+- get tempo staff working and put it in multiple places (also, why is that one rit not displaying?)
+- Center systems vertically better?
+- Fix dynamic text so that it's actually interpreted as dynamics, then remove all that padding
+- Instrumentation page. Fix the one I have to say sleigh bells

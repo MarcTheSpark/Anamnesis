@@ -3,7 +3,7 @@
 \paper {
   #(set-paper-size "size")
   systems-per-page = \systems
-  left-margin = #(* margin in)
-  right-margin = #(* margin in)
+  left-margin = #(* lMargin in)
+  right-margin = #(* rMargin in)
 }
 #(set-global-staff-size staff)

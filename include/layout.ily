@@ -14,6 +14,7 @@
   }
   \context {
     \Score
+    \RemoveEmptyStaves
     \override SpacingSpanner.uniform-stretching = ##t
     \editionID score
   }

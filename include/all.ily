@@ -3,8 +3,9 @@
 \include "../include/gliss.ily"
 \include "../include/header.ily"
 \include "../include/arrows.ily"
-
+\include "../include/globalMarks.ly"
 \include "oll-core/package.ily"
+
 \loadPackage edition-engraver
 \consistToContexts #edition-engraver Score.DrumStaff.DrumVoice
 

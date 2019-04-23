@@ -57,13 +57,13 @@ done
 cd ../output
 
 for i in *.ly; do
-  lilypond -dno-point-and-click --include ../include/openlilylib $i
+  lilypond -dno-point-and-click --include ~/Nextcloud/Lilyland/openlilylib $i
 done
 
 for music in *-music.pdf; do
   performance_notes=$(basename $music -music.pdf)-performance-notes.pdf
   title_page=$(basename $music -music.pdf)-title-page.pdf
-  pdftk $title_page $performance_notes $music cat output $(basename $music -music.pdf).pdf
+  pdfunite $title_page $performance_notes $music $(basename $music -music.pdf).pdf
   rm $title_page $performance_notes $music
 done
 
