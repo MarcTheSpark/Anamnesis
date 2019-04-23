@@ -5,7 +5,7 @@
   \editionID viola
 }
 \relative c' {
-  \include "../include/global.ily"
+  \include "../include/partSetup.ily"
   \include "../music/viola/notes.ily"
 }
 % \new Dynamics \with {

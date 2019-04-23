@@ -1,7 +1,7 @@
 \relative ces'''' {
     \clef "treble" \partial 2 r2 ^ \markup { \halign #-0.5 "(with vlns.)"} | % 1
     \ottava #1 | % 1
-    \once \override TextScript.outside-staff-priority = #1 ces2 \dSolo p ^ "l.v. sempre" g4 bes,4 \ottava #0 | % 2
+    \once \override TextScript.outside-staff-priority = #1 ces2 \dText p solo ^ "l.v. sempre" g4 bes,4 \ottava #0 | % 2
     r2 r4 fis'4 | % 3
     r8 c4. fis,2 | % 4
     r2 r8 \ottava #1 a'4. | % 5
@@ -52,7 +52,7 @@
     \repeat tremolo 16 { <d f>32 <es ges>32 -\! -\pp } | % 34
     R1*100 \ottava #0 | % 135
     R1 ^ "(with vlns.)" |
-    gis,,,4. \dSolo p ^ "l.v. sempre" b'8 d,4 gis'8 es8 | % 136
+    gis,,,4. \dText p solo ^ "l.v. sempre" b'8 d,4 gis'8 es8 | % 136
     R1 | % 137
     r2  r4 a4 | % 138
     cis,4 r8 fis,8 gis4 r8 bes8 | % 139

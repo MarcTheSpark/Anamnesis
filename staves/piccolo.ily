@@ -5,7 +5,7 @@
   \editionID piccolo
 }
 \relative c' {
-  \include "../include/global.ily"
+  \include "../include/partSetup.ily"
   \include "../music/piccolo/notes.ily"
 }
 %\new Dynamics \with {

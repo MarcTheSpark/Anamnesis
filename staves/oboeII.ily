@@ -5,6 +5,6 @@
   \editionID oboeII
 }
 \relative c' {
-  \include "../include/global.ily"
+  \include "../include/partSetup.ily"
   \include "../music/oboeII/notes.ily"
 }

@@ -5,6 +5,6 @@
   \editionID violinII
 }
 \relative c' {
-  \include "../include/global.ily"
+  \include "../include/partSetup.ily"
   \include "../music/violinII/notes.ily"
 }

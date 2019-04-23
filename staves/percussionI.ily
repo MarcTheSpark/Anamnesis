@@ -7,6 +7,6 @@
 }
 \drummode {
   \override DrumStaff.StaffSymbol.line-count = #1
-  \include "../include/global.ily"
+  \include "../include/partSetup.ily"
   \include "../music/percussionI/notes.ily"
 }

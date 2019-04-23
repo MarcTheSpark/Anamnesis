@@ -32,7 +32,7 @@
     es1 ~ ->  \dText ff stridently | % 91
     es1 | % 92
     R1*4 R1 \fermataMarkup R1*4 | % 101
-    r2 r8 g8 ( \dTextShift mf " dim." 1 es4 ~ | % 102
+    r2 r8 g8 ( \dText mf " dim." es4 ~ | % 102
     \times 2/3  {
         es4 des4 ) bes4 ~ }
     \times 2/3  {

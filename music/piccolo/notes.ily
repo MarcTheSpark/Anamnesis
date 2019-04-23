@@ -55,7 +55,7 @@
     R1 ^\fermataMarkup |
     R1*3 | \barNumberCheck #100
     r2 r8 b'8 ( -\< a8 ) c8 ( | % 101
-    as4. ) -\! -\! \dDim mf e8 es4. c8
+    as4. ) -\! -\! \dText mf "dim." e8 es4. c8
     | % 102
     b2. bes4 ~ | % 103
     bes1 ~ | % 104

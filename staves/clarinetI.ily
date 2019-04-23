@@ -5,6 +5,6 @@
   \editionID clarinetI
 }
 \relative c' {
-  \include "../include/global.ily"
+  \include "../include/partSetup.ily"
   \include "../music/clarinetI/notes.ily"
 }

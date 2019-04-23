@@ -5,6 +5,6 @@
   \editionID bassoonI
 }
 \relative c' {
-  \include "../include/global.ily"
+  \include "../include/partSetup.ily"
   \include "../music/bassoonI/notes.ily"
 }

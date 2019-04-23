@@ -33,7 +33,7 @@
     c1 | % 92
     R1*4 R1 \fermataMarkup R1*3 | \barNumberCheck #100
     r2 r8 cis8 ( -\mp -\< b8 ) d8 ( | % 101
-    bes4. ) -\! \dDim mf ges8 -. f4. d8 -.
+    bes4. ) -\! \dText mf "dim." ges8 -. f4. d8 -.
     | % 102
     cis2. c4 ~ | % 103
     c1 ~ | % 104

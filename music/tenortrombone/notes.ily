@@ -1,7 +1,7 @@
 \relative e {
     \clef "bass" \partial 2 r2 | % 1
     R1*16 | % 17
-    r2 e2 -> ( ~ ^ "con sord." \dSolo p | % 18
+    r2 e2 -> ( ~ ^ "con sord." \dText p solo | % 18
     e2 ~ e4 \glissando g4 ~ -> | % 19
     g4 ) es2 d4 ( ~ | \barNumberCheck #20
     d4 \glissando -\< f4. ) e4. -> | % 21

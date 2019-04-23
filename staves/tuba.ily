@@ -5,7 +5,7 @@
   \editionID tuba
 }
 \relative c' {
-  \include "../include/global.ily"
+  \include "../include/partSetup.ily"
   \include "../music/tuba/notes.ily"
 }
 % \new Dynamics \with {

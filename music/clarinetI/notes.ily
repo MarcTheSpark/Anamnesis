@@ -66,11 +66,11 @@
     a1 ~ ->  \dText ff stridently | % 91
     a1 | % 92
     R1*4 R1 \fermataMarkup | % 97
-    r8 d8 ( \dSolo p c8 ) es8 ( b4. g8 ) | % 98
+    r8 d8 ( \dText p solo c8 ) es8 ( b4. g8 ) | % 98
     r8 d'8 ( bes2 ) fis4 | % 99
     R1 | \barNumberCheck #100
     r8 a8 ( -\mp -\< g8 ) bes8 ( fis4. d8 ) | % 101
-    r8 -\! f8 ( \dDim mf cis4 ~  cis8 ) a8 r4
+    r8 -\! f8 ( \dText mf "dim." cis4 ~  cis8 ) a8 r4
     | % 102
     r2 e4 ( dis4 | % 103
     \times 2/3  {

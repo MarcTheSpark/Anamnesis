@@ -20,7 +20,7 @@
   d4 cis2. ~ | % 16
   cis2 ) -\! -\pp r2 | % 17
   R1*23 | \barNumberCheck #40
-  r4 gis'2. ~ \dCresc p ^"(with cello)"
+  r4 gis'2. ~ \dText p "cresc." ^"(with cello)"
   | % 41
   gis1 ~ | % 42
   gis2 r8 fis4. ~ | % 43
@@ -38,7 +38,7 @@
   R1*2
   
   R1*58 -\! | % 143
-  r4  des2. ~ \dCresc p | % 144
+  r4  des2. ~ \dText p "cresc." | % 144
   des2. r8 c8 ~ | % 145
   c1 ~ | % 146
   c8 r8 e2. ~ | % 147

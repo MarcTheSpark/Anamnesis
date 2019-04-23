@@ -5,6 +5,6 @@
   \editionID fluteI
 }
 \relative c' {
-  \include "../include/global.ily"
+  \include "../include/partSetup.ily"
   \include "../music/fluteI/notes.ily"
 }

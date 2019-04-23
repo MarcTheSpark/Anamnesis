@@ -1,7 +1,7 @@
 \relative c' {
     \clef "treble" \partial 2 r2 | % 1
     R1*16 | % 17
-    c2. ( -> ^ "con sord." \dSolo p \acciaccatura { d8 dis8 } es4 ~ ->
+    c2. ( -> ^ "con sord." \dText p solo \acciaccatura { d8 dis8 } es4 ~ ->
     | % 18
     \times 2/3  {
         es4 -\< des4 ) g4 -- }

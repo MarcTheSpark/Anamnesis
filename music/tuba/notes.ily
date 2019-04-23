@@ -16,7 +16,7 @@
     f1 ~ -> -\! -\ff | % 55
     f4 r4 r2 | % 56
     R1*36 | % 92
-    r2 f'''2 ( ~ \dSolo p | % 93
+    r2 f'''2 ( ~ \dText p solo | % 93
     \times 2/3  {
         f4 -\< des4 ) bes4 ~ }
     bes4 ges4 ( ~ -> -\! | % 94

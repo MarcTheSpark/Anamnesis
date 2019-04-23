@@ -1,7 +1,7 @@
  \relative as'' {
     \clef "treble" \partial 2 r2 | % 1
     R1*3 | % 4
-    r2 as2 ~ \dSoloShift p 1| % 5
+    r2 as2 ~ \dText p solo | % 5
     as2 ~ -\< as8 g4. ~ -> -\! -\> | % 6
     g4 r4 -\! \times 2/3 {
         r4 ges4 -. -- -\< f4 -. -- }
@@ -15,7 +15,7 @@
     e1 ( ~ | % 12
     e8 d4. ~ d4 ) -\! -\p r4 | % 13
     R1*12 | % 25
-    r4 a'2. ~ \dSoloShift p 1 | % 26
+    r4 a'2. ~ \dText p solo | % 26
     a4 ~ \once \omit TupletBracket
     \times 2/3  {
         a8 fis8 ( -\< gis8 ) }
@@ -65,12 +65,12 @@
     d'2. ( ->  \dText ff stridently cis4 ~ | % 91
     cis4 d2. ) | % 92
     R1*4 R1 \fermataMarkup | % 97
-    e,2. ( \dSolo p cis4 ~ | % 98
+    e,2. ( \dText p solo cis4 ~ | % 98
     cis2 ) r2 | % 99
-    r2 r8 c8 ( \dTextShift p "cresc." 1 ^\markup{ \small\italic {solo} } bes8 ) des8 ( |
+    r2 r8 c8 ( \dText p "cresc." ^\markup{ \small\italic {solo} } bes8 ) des8 ( |
     \barNumberCheck #100
     a4. f8 ) r8 b8 ( g4 ~ | % 101
-    g8 ) es8 r4 r8 g'8 ( \dTextShift mf " dim." 1 es4 ~ | % 102
+    g8 ) es8 r4 r8 g'8 ( \dText mf " dim." es4 ~ | % 102
     \times 2/3  {
         es4 des4 ) bes4 ~ }
     \times 2/3  {

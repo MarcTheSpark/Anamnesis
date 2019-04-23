@@ -5,6 +5,6 @@
   \editionID basstrombone
 }
 \relative c' {
-  \include "../include/global.ily"
+  \include "../include/partSetup.ily"
   \include "../music/basstrombone/notes.ily"
 }

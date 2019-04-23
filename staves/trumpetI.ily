@@ -5,6 +5,6 @@
   \editionID trumpetI
 }
 \relative c' {
-  \include "../include/global.ily"
+  \include "../include/partSetup.ily"
   \include "../music/trumpetI/notes.ily"
 }

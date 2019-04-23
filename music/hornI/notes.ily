@@ -26,7 +26,7 @@
     f4. e8 ~ -\! -\> e2 ~ | % 66
     e2 r2 -\! | % 67
     R1*9 | % 76
-    r2 c2 ~ \dSolo p | % 77
+    r2 c2 ~ \dText p solo | % 77
     c2 c4 -. c4 -. | % 78
     c1 ~ | % 79
     c4 f,2. ( | \barNumberCheck #80
@@ -36,10 +36,10 @@
     f2 e4 ) f4 ~ \f | % 88
     << { f1 -\> } { s2.. s8 \p } >>| % 89
     R1*9 -\! | % 98
-    r2  e2 ( ~ \dSolo p | % 99
+    r2  e2 ( ~ \dText p solo | % 99
     e4 cis2. ) | \barNumberCheck #100
     R1*2 | % 102
-    r2 es2 ~ \dSolo p | % 103
+    r2 es2 ~ \dText p solo | % 103
     es2 c2 ~ | % 104
     c2 \fermata r2 \fermata | % 105
     R1*9 | % 114

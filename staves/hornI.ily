@@ -5,6 +5,6 @@
   \editionID hornI
 }
 \relative c' {
-  \include "../include/global.ily"
+  \include "../include/partSetup.ily"
   \include "../music/hornI/notes.ily"
 }

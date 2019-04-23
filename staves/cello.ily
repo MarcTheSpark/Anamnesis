@@ -5,6 +5,6 @@
   \editionID cello
 }
 \relative c' {
-  \include "../include/global.ily"
+  \include "../include/partSetup.ily"
   \include "../music/cello/notes.ily"
 }

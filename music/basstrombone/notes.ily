@@ -15,7 +15,7 @@
     f2 ( ~ -\! -\mp -\> f8 d4. ~ | \barNumberCheck #60
     d2. ) -\p r4 -\! | % 61
     R1*19 | \barNumberCheck #80
-    d1 ~ \dSolo p ^ "con sord." | % 81
+    d1 ~ \dText p solo ^ "con sord." | % 81
     d1 ~ | % 82
     d4 -\< f2. ~ | % 83
     f2 f2 | % 84

@@ -41,7 +41,7 @@
     e2 f2 | \barNumberCheck #70
     R1*4 | % 74
     \times 2/3  {
-        es4 ( \dSolo p c4 g4 ) }
+        es4 ( \dText p solo c4 g4 ) }
     r2 | % 75
     r2 \times 2/3 {
         a4 ( -\p -\< f4 cis4 }
@@ -52,10 +52,10 @@
     b4. bes8 ~ bes4 a4 | % 86
     as1 -> -\! -\f -\> | % 87
     R1*11 -\!| % 98
-    r2 r8 f'8 ( \dCresc p ^\markup{ \small\italic {solo} } es8 ) fis8 ( | % 99
+    r2 r8 f'8 ( \dText p "cresc." ^\markup{ \small\italic {solo} } es8 ) fis8 ( | % 99
     d4. bes8 ) r8 f'8 ( des4 ~ | \barNumberCheck #100
     des4 ) a4 r2 | % 101
-    r8 es'8 ( \dDim mf b4 ~ b8 ) g8 r4 | % 102
+    r8 es'8 ( \dText mf "dim." b4 ~ b8 ) g8 r4 | % 102
     r2 d4 ( cis4 | % 103
     \times 2/3  {
         d4 cis4 d4 ~ }

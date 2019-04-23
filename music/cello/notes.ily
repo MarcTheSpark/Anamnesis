@@ -2,7 +2,7 @@
     \clef "bass" \partial 2 r2 | % 1
     R1 | % 2
     r2 a2 ~ :32 ^ "sul pont." -\pp | % 3
-    a1 ~ :32 -\markup{ \small\italic {cresc.} } | % 4
+    a1 ~ :32 \crescMark | % 4
     a4 :32 bes2. ~ :32 | % 5
     bes2. ~ :32 bes8 :64 b8 ~ :64 | % 6
     b2. ~ :64 b8 :64 c8 ~ :64 | % 7

@@ -5,6 +5,6 @@
   \editionID bassclarinet
 }
 \relative c' {
-  \include "../include/global.ily"
+  \include "../include/partSetup.ily"
   \include "../music/bassclarinet/notes.ily"
 }

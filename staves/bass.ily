@@ -5,6 +5,6 @@
   \editionID bass
 }
 \relative c' {
-  \include "../include/global.ily"
+  \include "../include/partSetup.ily"
   \include "../music/bass/notes.ily"
 }

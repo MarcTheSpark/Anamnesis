@@ -3,7 +3,7 @@
 \include "../include/gliss.ily"
 \include "../include/header.ily"
 \include "../include/arrows.ily"
-\include "../include/globalMarks.ly"
+\include "../include/globalDefinitions.ly"
 \include "oll-core/package.ily"
 
 \loadPackage edition-engraver

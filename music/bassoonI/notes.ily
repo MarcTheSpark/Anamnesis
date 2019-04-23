@@ -33,7 +33,7 @@
     es1 | % 65
     g1 -\! -\p | % 66
     R1*3 | % 69
-    r2 \clef "tenor" r8 as''4. ~  \dSoloShift p 8 ^\markup{ \small\italic {dolce} } -\< | \barNumberCheck #70
+    r2 \clef "tenor" r8 as''4. ~  \dText p solo ^\markup{ \small\italic {dolce} } -\< | \barNumberCheck #70
     as4 f2. -\! -\> | % 71
     r2 -\! r4 g4 ~ -\< | % 72
     g2 ~ g8 es4. ~ -\! -\> | % 73
@@ -53,7 +53,7 @@
     ges1 | % 92
     R1*4 R1 \fermataMarkup R1 *4 | % 101
     \clef "bass" | % 101
-    r2 r8 g8 ( \dTextShift mf "dim." 1 es4 ~ | % 102
+    r2 r8 g8 ( \dText mf "dim." es4 ~ | % 102
     \times 2/3  {
         es4 des4 ) bes4 ~ }
     \times 2/3  {
@@ -99,7 +99,7 @@
     ges2. r4 | % 141
     R1 | % 142
     \clef "treble" | % 142
-    ges'1 ~ \dSolo p | % 143
+    ges'1 ~ \dText p solo | % 143
     ges2 r2 | % 144
     R1*5 | % 149
     r4 es2. ~ -> -\f -\> | \barNumberCheck #150

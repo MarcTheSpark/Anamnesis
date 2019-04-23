@@ -26,7 +26,7 @@
     cis1 ) | % 92
     R1*4 R1 \fermataMarkup R1*3 | \barNumberCheck #100
     d2. ( -\mp -\< b4 ~ | % 101
-    b4 ) -\! \dDim mf as2 ( f4 ~ | % 102
+    b4 ) -\! \dText mf "dim." as2 ( f4 ~ | % 102
     f4 ) d2. ( ~ | % 103
     d4 cis2 ) d4 ~ | % 104
     d2 \fermata -\p r2 \fermata | % 105
