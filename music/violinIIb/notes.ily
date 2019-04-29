@@ -3,7 +3,7 @@
     R1*2 | % 3
     d2 \upbow -\p ^ "con sord." -\< fis2 \downbow -\! -\> | % 4
     R1 -\! | % 5
-    r2 r4 a4 ~ -\markup{ \small\italic {simile} } | % 6
+    r2 r4 a4 ~ \simileDynamics | % 6
     a8 bes4. ~ bes4 \cresc r4 | % 7
     R1 | % 8
     r4 r8 as8 ~ as4 bes4 ~ -\! \paren \mf | % 9
@@ -25,16 +25,20 @@
     f1 :32 | % 82
     ges1 ~ :32 -\> | % 83
     ges1 :32 -\! -\pp | % 84
-    R1*8 | % 92
-    bes,1 ~ -> \downbow -\f ^ "con sord." | % 93
+    R1*3 | % 92
+    des2 ~ ( \mp \< des8 c4. ) |
+    des2 ( c4 ) des4 ~ ( -> \f \>|
+    des4. bes8 ~ bes2 ) |
+    R1 * 2 \! |
+    bes1 ~ -> \downbow -\f ^ "con sord." | % 93
     bes2 bes2 ~ | % 94
     bes2. b4 ( ~ -> | % 95
     b4. -\> bes8 ~ bes2 ~ | % 96
     bes2 ) bes2 \fermata -\! -\p | % 97
-    R1*35 | % 132
+    R1 * 7 R1 \fermataMarkup R1*27 | % 132
     es2 ~ \upbow ^ "con sord." -\p -\< es8 c4. ~ -\! -\> | % 133
     c2 r2 -\! | % 134
-    r2 r4 c4 ~ -\markup{ \small\italic {simile} } | % 135
+    r2 r4 c4 ~ \simileDynamics | % 135
     c4. b'8 ~ b2 | % 136
     R1*2 | % 138
     r4 des,2 ~ des8 bes8 ~ | % 139

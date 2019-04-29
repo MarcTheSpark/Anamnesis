@@ -1,10 +1,13 @@
 \include "../include/all.ily"
+\include "../include/layout.ily"
 
 
 \score {
-  <<
-    \new StaffGroup <<
-      \include "../music/tempos.ily"
+<<
+      \new MarkLine {
+        \include "../music/tempos.ily"
+      }
+      \new StaffGroup <<
       \new GrandStaff <<
         \include "../staves/piccolo.ily"
         \include "../staves/fluteI.ily"
@@ -47,6 +50,10 @@
 
     \include "../staves/harp.ily"
 
+    \new MarkLine {
+        \include "../music/tempos.ily"
+    }
+    
     \new StaffGroup <<
       \new GrandStaff <<
 	\include "../staves/violinI.ily"
@@ -61,5 +68,4 @@
       \include "../staves/bass.ily"
     >>
   >>
-  \include "../include/layout.ily"
 }

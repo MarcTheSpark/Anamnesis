@@ -51,7 +51,7 @@
     R1*4 | % 64
     r2 as'2 -\p -\< | % 65
     g2. -\! -\> r4 -\! | % 66
-    r2 c2 -\markup{ \small\italic {simile} } | % 67
+    r2 c2 \simileDynamics | % 67
     bes2. r4 | % 68
     r2 r8 des4. | % 69
     bes2. r4 | \barNumberCheck #70
@@ -77,7 +77,7 @@
         bes4 a4 as4 ~ }
     | % 103
     as1 ~ | % 104
-    as2 \fermata -\p r2 | % 105
+    as2 \fermata -\p r2 \fermata | % 105
     R1*4 | % 109
     r2 bes'2 ~ -\fp -\< | \barNumberCheck #110
     bes1 ~ | % 111
@@ -98,7 +98,7 @@
     r2 as'2 ~ \p ^\markup{ \small\italic {solo} } -\< | % 145
     as1 | % 146
     bes1 ~ -> -\! -\> | % 147
-    bes4 -\! r8 f8 -. b2 ~ -\fp -\markup{ \small\italic {cresc.} } | % 148
+    bes4 -\! r8 f8 -. b2 ~ \dText fp "cresc." | % 148
     b1 ~ | % 149
     b4. -\< bes8 ~ -> -\! -\f -\> bes2 | \barNumberCheck #150
     r4 -\! r8 g8 ~ -\< g4. as8 ~ -\! -\> | % 151
@@ -107,7 +107,7 @@
     | % 152
     e2. ( d4 ~ | % 153
     d2 ) -\! r2 | % 154
-    r2 as'2 ~ -\markup{ \small\italic {cresc.} } | % 155
+    r2 as'2 ~ \crescDynamic | % 155
     as4 g2. ( ~ | % 156
     g2 ~ -\< \times 2/3 {
         g4 f4 ) e4 }

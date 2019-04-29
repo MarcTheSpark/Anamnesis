@@ -27,7 +27,7 @@
     des1 ( -\! -\mp -\> | \barNumberCheck #60
     bes1 ~ | % 61
     bes4 ) -\! -\p r4 r2 | % 62
-    R1*54 | % 116
+    R1*34 R1 \fermataMarkup R1 * 7 R1 \fermataMarkup R1 * 7 R1 \fermataMarkup R1*3 | % 116
     es1 ~ ^ "con sord." -\fp -\< | % 117
     es2 ~ es8 des4. ~ -\! -\f -\> | % 118
     des4 r4 -\! -\p r2 | % 119
@@ -41,5 +41,5 @@
     \clef "bass" | % 129
     bes,2 ~ -\< bes8 as4. ~ -\! -\mf -\> | \barNumberCheck #130
     as8 r8 -\! r4 r2 | % 131
-    R1*30 \bar "|."
+    R1*29 R1 \fermataMarkup \bar "|."
     }

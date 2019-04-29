@@ -23,7 +23,7 @@
     f,,1 ~ -> -\ff | % 55
     f1 | % 56
     bes1 -> | % 57
-    des2. -> -\markup{ \small\italic {dim.} } f,4 ~ -> | % 58
+    des2. -> \dimDynamic f,4 ~ -> | % 58
     f2. r4 | % 59
     b2 fis2 ~ | \barNumberCheck #60
     fis1 | % 61
@@ -38,7 +38,7 @@
     r2 -\! r4 g4 ~ -\< | % 72
     g2 ~ g8 es4. ~ -\! -\> | % 73
     es4 r4 -\! r2 | % 74
-    r8 g4. ~ -\markup{ \small\italic {cresc.} } g2 ~ | % 75
+    r8 g4. ~ \crescDynamic g2 ~ | % 75
     g4 f4 ~ -\< \times 2/3 {
         f4 cis2 ~ }
     | % 76
@@ -60,7 +60,7 @@
         bes4 a4 as4 ~ }
     | % 103
     as1 ~ | % 104
-    as2 \fermata -\p r2 | % 105
+    as2 \fermata -\p r2 \fermata | % 105
     a,1 ~ \dText p "cresc. poco a poco" | % 106
     a1 ~ | % 107
     a1 | % 108
@@ -84,7 +84,7 @@
     g1 ~ | % 126
     g2. es'4 ~ | % 127
     es1 | % 128
-    f2. ( -\markup{ \small\italic {dim.} } g4 ~ | % 129
+    f2. ( \dimDynamic g4 ~ | % 129
     g2 ) r4 bes,4 ( ~ | \barNumberCheck #130
     bes4 f'2. ~ | % 131
     f2. ) r4 | % 132

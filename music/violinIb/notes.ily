@@ -1,7 +1,7 @@
 \relative es''' {
     \clef "treble" \partial 2 r2 ^ "con sord." | % 1
     r8 es4. \upbow \p -\< g2 \downbow -\! -\> | % 2
-    r2 -\! r8 bes,4. ~ -\markup{ \small\italic {simile} } | % 3
+    r2 -\! r8 bes,4. ~ \simileDynamics | % 3
     bes8 c4. r2 | % 4
     r4 r8 g'8 ~ \cresc g2 | % 5
     fis2 ~ fis8 r8 r4 | % 6
@@ -19,7 +19,7 @@
     f4 -\! -\pp r4 r2 | % 18
     R1*52 | \barNumberCheck #70
     r4 c2. :32 -\pp | % 71
-    cis2 :32 -\markup{ \small\italic {cresc.} }  d2 ~ :32 | % 72
+    cis2 :32 \crescDynamic  d2 ~ :32 | % 72
     d2. :32 es4 ~ :32 | % 73
     es1 :32 | % 74
     d1 :32 | % 75
@@ -43,11 +43,11 @@
     | % 95
     gis1 ~ -\> | % 96
     gis4 gis2. \fermata -\! -\p | % 97
-    R1*35 | % 132
+    R1 * 7 R1 \fermataMarkup R1*27 | % 132
     r2 r4 bes4 ~ \upbow ^ "con sord." -\p -\< | % 133
     bes4. g8 ~ -\! -\> g2 ~ | % 134
     g4 r4 -\! r2 | % 135
-    r8 f'4. ~ -\markup{ \small\italic {simile} } f4. es8 ~ | % 136
+    r8 f'4. ~ \simileDynamics f4. es8 ~ | % 136
     es2 r2 | % 137
     r4 r8 bes8 ~ bes2 | % 138
     des2. r4 | % 139

@@ -20,7 +20,7 @@
     | % 88
     des1 ( -\! \f -\> | % 89
     bes2. ) -\! -\p r4 | \barNumberCheck #90
-    R1*6 R1 \fermataMarkup R1*17 | % 114
+    R1*6 R1 \fermataMarkup R1 * 7 R1 \fermataMarkup R1*9 | % 114
     es,1 ~ ^ "con sord." -\fp -\< | % 115
     es2 c2 ~ -\! -\fp -\< | % 116
     c4 cis4 ~ -> cis8 d4. ~ -> -\! -\fp | % 117
@@ -36,5 +36,5 @@
     es4 ~ \stopTrillSpan es8 r8 -\! r2 | % 128
     R1 | % 129
     c2 ~ \startTrillSpan -> -\mf -\> c4 \stopTrillSpan r4 -\! | \barNumberCheck #130
-    R1*31 \bar "|."
+    R1*30 R1 \fermataMarkup \bar "|."
     }

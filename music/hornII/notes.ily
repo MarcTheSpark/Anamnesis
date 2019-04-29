@@ -2,7 +2,7 @@
     \transposition f \clef "treble" \partial 2 r2
     | % 1
     R1*44 | % 45
-    r4 r8 c8 ~ ^ "con sord." -\p c2 ~ -\markup{ \small\italic {cresc.} }
+    r4 r8 c8 ~ ^ "con sord." -\p c2 ~ \crescDynamic
     | % 46
     c2. b4 ~ | % 47
     b2. a4 ~ -\< | % 48
@@ -22,7 +22,7 @@
     b2. ^ "con sord." -\p -\< c4 ( | % 88
     b4 -\! \f c4 b2 ~ -\> | % 89
     b8 ) c4. ( ~ c4 a4 ) -\! -\p | \barNumberCheck #90
-    R1*6 R1 \fermataMarkup R1*21 | % 118
+    R1*6 R1 \fermataMarkup R1 * 7 R1 \fermataMarkup R1*13 | % 118
     r2 r8 g4. ~ ^ "senza sord." -\fp -\< | % 119
     g4 as2 -> -\! -\mp -\> r4 -\! | \barNumberCheck #120
     R1 | % 121
@@ -36,5 +36,5 @@
     f2. ) -\! -\p r8 es'8 ~ -\fp -\< | % 129
     es2 c2 ~ -\! -\mf -\> | \barNumberCheck #130
     c2. r4 -\! | % 131
-    R1*30 \bar "|."
+    R1*29 R1 \fermataMarkup \bar "|."
     }

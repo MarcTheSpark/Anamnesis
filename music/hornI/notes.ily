@@ -4,8 +4,7 @@
     r2 r4 as4 ~ -+ ^\markup{ \small\italic {brassy} } -\fp | % 9
     as1 -\> | \barNumberCheck #10
     R1*35 -\! | % 45
-    r4 r8 e'8 ~ ^ "con sord." -\p e2 ~ -\markup{ \small\italic
-        {cresc.} } | % 46
+    r4 r8 e'8 ~ ^ "con sord." -\p e2 ~ \crescDynamic | % 46
     e2. es4 ~ | % 47
     es2. des4 ~ -\< | % 48
     des2 f2 -> | % 49
@@ -35,7 +34,7 @@
     r4 f'4 ^ "con sord." -\p -\< e4 f4 ( ~ | % 87
     f2 e4 ) f4 ~ \f | % 88
     << { f1 -\> } { s2.. s8 \p } >>| % 89
-    R1*9 -\! | % 98
+    R1*7 -\! R1 \fermataMarkup R1 | % 98
     r2  e2 ( ~ \dText p solo | % 99
     e4 cis2. ) | \barNumberCheck #100
     R1*2 | % 102
@@ -67,5 +66,5 @@
     r4 bes2. ~ -> -+ ^\markup{ \small\italic {brassy} } -\fp -\> |
     \barNumberCheck #150
     bes4 r4 -\! r2 | % 151
-    R1*10 \bar "|."
+    R1*9 R1 \fermataMarkup \bar "|."
     }

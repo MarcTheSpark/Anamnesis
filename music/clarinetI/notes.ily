@@ -11,7 +11,7 @@
     d4 bes2. ) -\! -\> | % 12
     R1*14 -\! | % 26
     e1 ~ -\pp | % 27
-    e8 r8 e2. ~ -\markup{ \small\italic {cresc.} } | % 28
+    e8 r8 e2. ~ \crescDynamic | % 28
     e2. b4 ~ | % 29
     b2 ~ -\< b8 r16 c32 ( d32 es4 ~ -> | \barNumberCheck #30
     es8 ) d4. -> c2 ~ -> -\! -\f -\> | % 31
@@ -39,7 +39,7 @@
     b4 bes2. ~ | % 53
     bes4 ) -\! -\p r4 r2 | % 54
     r8 a'4. ~ -\f -\< a8 gis4. ~ -> -\! -\sfz -\> | % 55
-    gis4 r8 -\! a8 ~ -\markup{ \small\italic {simile, dim.} } a4. f8 ~ -> | % 56
+    gis4 r8 -\! \dSpace a8 ~ -\markup{ \small\italic {simile, dim.} } a4. f8 ~ -> | % 56
     f2 r8 g4. ~ \paren -\mf | % 57
     g4 c,2 r4 | % 58
     R1*2 | \barNumberCheck #60

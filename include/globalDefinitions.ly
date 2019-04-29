@@ -15,14 +15,18 @@ dText =
      (parser location dynamicText italicText)
      (string? string?)
    (make-dynamic-script 
-    #{  \markup { \right-align #dynamicText \normal-text \small \italic #italicText } #}
+    #{  \markup { \hspace #1.5 \right-align #dynamicText \normal-text \small \italic #italicText } #}
     )
  )
 
 dSpace = \once \override TextScript.staff-padding = #3.0
 
-crescMark = -\markup{ \lower #2.7 \small\italic {cresc.} }
+crescDynamic = #(make-dynamic-script #{ \markup { \normal-text \small \italic "cresc."} #})
+dimDynamic = #(make-dynamic-script #{ \markup { \normal-text \small \italic "dim."} #})
+simileDynamics = #(make-dynamic-script #{ \markup { \normal-text \small \italic simile} #})
+nienteDynamic = #(make-dynamic-script #{ \markup { \normal-text \small \italic niente} #})
 
+% -\\markup\s*{.*{\s*simile\s*}\s*}
 % makes a solo dynamic
 % dSolo = 
 % #(define-music-function (parser location text)

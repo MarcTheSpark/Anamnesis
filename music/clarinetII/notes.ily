@@ -5,7 +5,7 @@
     r4 r4 r2 | % 47
     R1*7 | % 54
     r8 a4. ~ -\f -\< a8 gis4. ~ -> -\! -\sfz -\> | % 55
-    gis4 r8 -\! a8 ~ -\markup{ \small\italic {simile, dim.} } a4. f8 ~ -> | % 56
+    gis4 r8 -\! \dSpace a8 ~ -\markup{ \small\italic {simile, dim.} } a4. f8 ~ -> | % 56
     f2 r8 g4. ~ \paren -\mf| % 57
     g4 c,2 r4 | % 58
     R1*2 | \barNumberCheck #60
@@ -57,5 +57,5 @@
     r4 f2. -\fp -\< | % 127
     c2. -\! -\ff -\> a4 ~ | % 128
     a2. -\! -\p r4 | % 129
-    R1*32 \bar "|."
+    R1*31 R1 \fermataMarkup \bar "|."
     }

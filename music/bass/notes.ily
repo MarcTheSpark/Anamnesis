@@ -1,7 +1,7 @@
 \relative d {
     \clef "bass" \transposition c \partial 2 r2 | % 1
     R1*32 | % 33
-    d1 ~ -> \dText pp "cresc. poco a poco" | % 34
+    \dSpace d1 ~ -> \pp -\markup{ \hspace #4 \small\italic {cresc. poco a poco} }| % 34
     d1 ~ | % 35
     d1 ~ | % 36
     d1 ~ | % 37
@@ -26,7 +26,7 @@
     | % 54
     f1 ~ -> -\ff | % 55
     f1 | % 56
-    bes1 -\markup{ \small\italic {dim. poco a poco} } | % 57
+    \dSpace bes1 -\markup{ \small\italic {dim. poco a poco} } | % 57
     des2. f4 ~ | % 58
     f1 | % 59
     b,!2 \paren \mf fis'2 ~ | \barNumberCheck #60
@@ -75,5 +75,5 @@
     es1 ~ :32 | % 135
     es1 ~ :32 | % 136
     es4 :32 r4 r2 | % 137
-    R1*24 \bar "|."
+    R1*23 R1 \fermataMarkup \bar "|."
     }

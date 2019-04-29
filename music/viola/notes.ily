@@ -14,9 +14,9 @@
     #30
     << {es2 \trillWithFlat f2 ~ \startTrillSpan -\! \f -\> } {s4. s8 \stopTrillSpan s2 } >> | % 31
     f1 ~ | % 32
-    f4 -\! \stopTrillSpan -\markup{ \small\italic {niente} } r4 r2 | % 33
+    f4 \stopTrillSpan \nienteDynamic r4 r2 | % 33
     R1*7 | \barNumberCheck #40
-    r4 fis,2. ~ :32 ^ "(with b. cl.)" ^ "sul pont." \dText p "cresc." | % 41
+    r4 fis,2. ~ :32 ^ "sul pont." ^ "senza sord." \dText p "cresc." | % 41
     fis1 ~ :32 | % 42
     fis2 ~ :32 fis8 :64 e4. ~ :64 -> | % 43
     e1 ~ :32 | % 44
@@ -40,7 +40,7 @@
     -\> | % 59
     f4 c2 ) r4 -\! | \barNumberCheck #60
     r2 r4 r8 bes8 ~ \downbow | % 61
-    bes4. -\< c8 ~ c4 es4 ( ~ -\! -\mf -\markup{ \small\italic {ten.} }
+    bes4. -\< c8 ~ c4 es4 ( ~ -\! -\mf ^\markup{ \small\italic {ten.} }
     -\> | % 62
     es4. c8 ~ c2 ~ | % 63
     c8 ) -\! r8 r4 r2 | % 64
@@ -66,7 +66,7 @@
     eis1 \fermata -\! -\p | % 97
     R1*3 | \barNumberCheck #100
     d2. ( \downbow -\mp ^ "senza sord." -\< b4 ~ | % 101
-    b4 ) -\! -\mf gis2 ( -\markup{ \small\italic {dim.} } f4 ~ | % 102
+    b4 ) -\! -\mf gis2 ( \dimDynamic f4 ~ | % 102
     f4 ) d2. ~ | % 103
     d4 cis2 d4 ~ | % 104
     d2 \fermata -\p r2 \fermata | % 105
@@ -94,7 +94,7 @@
     r2 -\! ^ "con sord." c''2 ~ \upbow -\p -\< | % 132
     c8 bes4. ~ -\! -\> bes4 r4 -\! | % 133
     R1 | % 134
-    r2 bes2 -\markup{ \small\italic {simile} } | % 135
+    r2 bes2 \simileDynamics | % 135
     as2. r4 | % 136
     R1 | % 137
     r2 r4 r8 a8 ~ | % 138
@@ -102,7 +102,7 @@
     R1 | \barNumberCheck #140
     r2 r8 ces4. ~ | % 141
     ces2 as2 ~ | % 142
-    as4 r4 r4 bes4 ~  \cresc \cresc | % 143
+    as4 r4 r4 bes4 ~  \cresc | % 143
     bes2 ges2 ~ | % 144
     ges4 r4 r2 | % 145
     cis,2 ~ cis8 d4. ~ | % 146

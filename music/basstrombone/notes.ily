@@ -25,7 +25,7 @@
     es2 des2 ~ -> | % 88
     des8 ges4. -> as,2 ~ -> -\! \f -\> | % 89
     as1 -\! -\p | \barNumberCheck #90
-    R1*6 R1*1 \fermataMarkup R1* 19 | % 116
+    R1*6 R1*1 \fermataMarkup R1 * 7 R1 \fermataMarkup R1* 11 | % 116
     r2 a'2 ~ ^ "con sord." -\fp -\< | % 117
     a4. fis8 ~ -\! -\f fis2 ~ -\> | % 118
     fis4 r4 -\! -\p r2 | % 119
@@ -38,5 +38,5 @@
     es2 ~ :32 es2 :32 -\! -\ff -\> | % 128
     r4 -\! f2 -\< g4 ~ -\! -\f -\> | % 129
     g2 r2 -\! | \barNumberCheck #130
-    R1*31 \bar "|."
+    R1*30 R1 \fermataMarkup \bar "|."
     }

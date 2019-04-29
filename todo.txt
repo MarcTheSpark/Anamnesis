@@ -1,6 +1,4 @@
-Find/replace all simile marks and cresc. marks using terminal
-
-- make sure all parts have all fermatas; turn of hide empty staves to do this
+- after making all parts, check on senza sords!
 - get tempo staff working and put it in multiple places (also, why is that one rit not displaying?)
 - Center systems vertically better?
 - Instrumentation page. Fix the one I have to say sleigh bells

@@ -29,8 +29,8 @@ bd1:32 ~ |
 bd1:32 ~ \paren \mp |
 bd1:32 ~ |
 bd4 \lv r4 r2 |
-R1 * 54 |
-tt1:32 \tamTam \dText pp "cresc. poco a poco" |
+R1 * 36 R1 \fermataMarkup R1 * 7 R1 \fermataMarkup R1 * 9 |
+tt1:32 ~ \tamTam \dText pp "cresc. poco a poco" |
 tt1:32 ~ |
 tt1:32 ~ |
 tt1:32 ~ |

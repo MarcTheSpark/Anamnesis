@@ -32,7 +32,7 @@
     f2. ~ :32 f4 ~ :32 -\! -\f ^ "(with trumpets)" -\> | % 55
     f1 ~ :32 | % 56
     f2 :32 r2 -\! -\p | % 57
-    R1*57 | % 114
+    R1*39 R1 \fermataMarkup R1 * 7 R1 \fermataMarkup R1*9 | % 114
     es1 ~ :32 -\p -\< | % 115
     es2 :32 es2*1/2 :32 f2*1/2 :32 | % 116
     es2*1/2 :32 f2*1/2 :32 bes,2*1/2 :32 -\! -\mf -\> f'2*1/2 :32 | % 117
@@ -48,5 +48,5 @@
     f1 ~ :32 | % 149
     f2. :32 r4 -\! | \barNumberCheck #150
     \revert Hairpin #'circled-tip
-    R1*11 \bar "|."
+    R1*10 R1 \fermataMarkup \bar "|."
     }

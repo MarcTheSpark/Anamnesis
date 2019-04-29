@@ -29,7 +29,7 @@
     ges2 ~ -\! \f ges8 ) e4. ( -\> | % 89
     f2 ~ f8 d4. ~ | \barNumberCheck #90
     d4 ) -\! -\p r4 r2 | % 91
-    R1*5 R1 \fermataMarkup R1*10 | % 107
+    R1*5 R1 \fermataMarkup R1 * 7 R1 \fermataMarkup R1*2 | % 107
     es1 ~  ^ "stem in" ^ "harmon mute" -\fp -\< | % 108
     es4 c2. ~ -\! -\f -\> | % 109
     c1 -\p | \barNumberCheck #110
@@ -52,5 +52,5 @@
     es2 -\! -\mf -\> r2 -\! | \barNumberCheck #130
     r8 c4. ~ -> -\< c4. bes8 ~ -\mp -\> | % 131
     bes1 | % 132
-    R1*29 -\! \bar "|."
+    R1*28 -\! R1 \fermataMarkup \bar "|."
     }

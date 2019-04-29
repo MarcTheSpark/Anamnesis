@@ -3,7 +3,7 @@
   r2 | % 1
   R1 | % 2
   r2 b2 ~ -\p | % 3
-  b1 ~ -\markup{ \small\italic {cresc.} } | % 4
+  b1 ~ \crescDynamic | % 4
   b8 r8 c2. ~ | % 5
   c2. r8 cis8 ~ | % 6
   cis2. r8 d8 ( ~ -\< | % 7
@@ -35,9 +35,9 @@
   es2 ~ es8 ) d4. ~ | % 52
   d4 -\! -\p r4 r2 | % 53
   R1*30 | % 83
-  R1*2
-  
-  R1*58 -\! | % 143
+  R1*13 |
+  R1 \fermataMarkup |
+  R1*7 -\! R1 \fermataMarkup R1*38 | % 143
   r4  des2. ~ \dText p "cresc." | % 144
   des2. r8 c8 ~ | % 145
   c1 ~ | % 146
@@ -48,7 +48,7 @@
   \times 2/3  {
     c16 ( des16 d16 }
   es2. ~ -> -\! -\f | \barNumberCheck #150
-  es2 d2 ~ -\markup{ \small\italic {dim.} } | % 151
+  es2 d2 ~ \dimDynamic | % 151
   d2. ) g,4 ( ~ | % 152
   g1 | % 153
   c1 ~ | % 154

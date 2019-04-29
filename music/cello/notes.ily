@@ -2,14 +2,14 @@
     \clef "bass" \partial 2 r2 | % 1
     R1 | % 2
     r2 a2 ~ :32 ^ "sul pont." -\pp | % 3
-    a1 ~ :32 \crescMark | % 4
+    a1 ~ :32 \crescDynamic | % 4
     a4 :32 bes2. ~ :32 | % 5
     bes2. ~ :32 bes8 :64 b8 ~ :64 | % 6
     b2. ~ :64 b8 :64 c8 ~ :64 | % 7
     c2 ~ :32 c8 :64 d4. ~ :64 | % 8
     d4. :64 -\< bes8 ~ :64 bes4 \glissando :32 des4 ~ :32 -> -\! -\f | % 9
     des1 ~ :32 | \barNumberCheck #10
-    des2 ~ :32 -\markup{ \small\italic {dim.} } des8 :64 c4. ~ :64 | % 11
+    des2 ~ :32 \dimDynamic des8 :64 c4. ~ :64 | % 11
     c2 :32 f,2 ~ :32 | % 12
     f2. :32 bes4 ~ :32 | % 13
     bes2 ~ :32 \times 2/3 {
@@ -19,7 +19,7 @@
     c4 :32 b2. ~ :32 | % 16
     b2 :32 -\! -\pp r2 | % 17
     R1*16 | % 33
-    \trillWithFlat d,1 ~ \startTrillSpan -> \dText pp "cresc. poco a poco" | % 34
+    \trillWithFlat \dSpace d,1 ~ \startTrillSpan -> \pp -\markup{ \hspace #4 \lower #2 \small\italic {cresc. poco a poco} } | % 34
     d1 ~ | % 35
     d1 ~ | % 36
     d1 ~ | % 37
@@ -48,7 +48,7 @@
         | % 54
         f1 ~ -> -\ff | % 55
         f1 | % 56
-        bes1 -\markup{ \small\italic {dim. poco a poco} } | % 57
+        \dSpace bes1 -\markup{ \small\italic {dim. poco a poco} } | % 57
         des2. \stopTrillSpan f4 ~ | % 58
         f1 | % 59
         b,!2 \stopTrillSpan \paren \mf fis'2 ~ | \barNumberCheck #60
@@ -74,7 +74,7 @@
         s8 s8 \stopTrillSpan s4 \startTrillSpan s8 \stopTrillSpan s4. \startTrillSpan |
         s2.. s8 \stopTrillSpan|
         \trillWithFlat s2.. \startTrillSpan s8 \stopTrillSpan|
-         s2 \startTrillSpan s8 s4 ^ "tutti" _ "solo"  s8 \stopTrillSpan |
+         s2 \startTrillSpan s8. s16 ^ "tutti:" _ "solo:"  s4 \stopTrillSpan |
       }
     >>
     << 

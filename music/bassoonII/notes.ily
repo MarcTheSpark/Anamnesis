@@ -8,7 +8,7 @@
     f,,1 ~ -> -\ff | % 55
     f1 | % 56
     bes,1 -> | % 57
-    des2. -> -\markup{ \small\italic {dim.} } f4 ~ -> | % 58
+    des2. -> \dimDynamic f4 ~ -> | % 58
     f2. r4 | % 59
     b,2 fis'2 ~ | \barNumberCheck #60
     fis1 | % 61
@@ -44,7 +44,7 @@
     g1 ~ | % 126
     g2. es'4 ~ | % 127
     es1 | % 128
-    f2. ( -\markup{ \small\italic {dim.} } g4 ~ | % 129
+    f2. ( \dimDynamic g4 ~ | % 129
     g2 ) r4 bes,4 ( ~ | \barNumberCheck #130
     bes4 f'2. ~ | % 131
     f2. ) r4 | % 132
@@ -53,5 +53,5 @@
     es,1 ~ | % 135
     es1 ~ -\> | % 136
     es4 -\! -\pp r4 r2 | % 137
-    R1*24 \bar "|."
+    R1*23 R1 \fermataMarkup \bar "|."
     }

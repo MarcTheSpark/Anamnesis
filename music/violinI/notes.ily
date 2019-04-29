@@ -2,7 +2,7 @@
     \clef "treble" \partial 2 \ottava #1 r8 
     \once \override TextScript.outside-staff-priority = #1 ais4. \upbow ^ "con sord." \p -\< | % 1
     b2 \downbow -\! -\> r2 -\! | % 2
-    r4 a2 -\markup{ \small\italic {simile} } fis4 ~ | % 3
+    r4 a2 \simileDynamics fis4 ~ | % 3
     fis4 r4 r2 | % 4
     cis'2 ~ \cresc cis8 a4. ~ | % 5
     a8 r8 r4 r2 | % 6
@@ -31,12 +31,12 @@
     <<
       {
         d2 ) f2 ( -> -\! -\mf | % 28
-        es1 ) -\markup{ \small\italic {dim.} } | % 29
+        es1 ) \dimDynamic | % 29
         c1 ~ | \barNumberCheck #30
         c4 des2. ~ | % 31
         des1 -\> | % 32
         f1 ~ | % 33
-        f1 -\! -\markup{ \small\italic {niente} } 
+        f1 \nienteDynamic 
       }
       {
         s4. s8 \stopTrillSpan \trillWithFlat s4.. \startTrillSpan s16 \stopTrillSpan | % 28
@@ -51,8 +51,7 @@
     R1*2 | % 36
     r4 ^ "senza sord." ^ "tutti" cis,4 ~ -\p -\< cis8 a4. ~ -\! -\> | % 37
     a8 r8 -\! r4 r2 | % 38
-    r2 cis2 ~ ^\markup{ \small\italic {simile} } -\markup{ \small\italic
-        {cresc. poco a poco} } | % 39
+    r2 cis2 ~ -\markup{ \lower #2 \small\italic {cresc. poco a poco} } ^\markup{ \small\italic {simile} }  | % 39
     cis8 a'4. ~ a4 r4 | \barNumberCheck #40
     r2 r4 d,4 ~ | % 41
     d4 f2. | % 42
@@ -69,8 +68,8 @@
     bes4. as8 ~ as4 r8 as8 ~ | % 53
     as4 f4 ~ f8 \ottava #0 r8 g4 ~ -\ff -\< | % 54
     g4. fis8 ~ -\! -\> -\sfz fis2 | % 55
-    r8 -\! g4. ~ -\markup{ \small\italic {simile} } g8 es4. ~ | % 56
-    es8 -\markup{ \small\italic {dim. poco a poco} } r8 f2. | % 57
+    r8 -\! g4. ~ \simileDynamics g8 es4. ~ | % 56
+    \dSpace es8 -\markup{ \small\italic {dim. poco a poco} } r8 f2. | % 57
     bes,2 r4 r8 bes8 ~ \downbow -\p -\< | % 58
     bes4 des4 ~ des8 f4. ( ~ -\! -\mf ^\markup{ \small\italic {ten.} }
     -\> | % 59
@@ -81,9 +80,10 @@
     as2 f2 ~ | % 64
     f8 r8 r4 r8 as4. ~ \paren \p | % 65
     as8 g4. ~ g4 r4 | % 66
+    \set Staff.shortInstrumentName = #"Vln. Ia"
     R1*3 | % 69
     r2 \ottava #1 c2 ~ :32 -\pp | \barNumberCheck #70
-    c2. :32 -\markup{ \small\italic {cresc.} } f,4 ~ :32 | % 71
+    c2. :32 \crescDynamic f,4 ~ :32 | % 71
     f1 ~ :32 | % 72
     f2 :32 bes2 ~ :32 | % 73
     bes1 :32 | % 74
@@ -107,8 +107,11 @@
     r4 dis4 ( ~ dis8 cis4. ) | % 95
     r4 d2 -\> cis4 ~ | % 96
     cis1 \fermata -\! -\p | % 97
-    R1*13 | \barNumberCheck #110
-    r2 r8 eis4. ( -\< | % 111
+    \set Staff.shortInstrumentName = #"Vln. I"
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1/7)
+    R1*4 R1*3 R1 \fermataMarkup R1*5 | \barNumberCheck #110
+    \unset Score.proportionalNotationDuration
+    r2 r8 eis4. ( -\< ^ "senza sord." ^ "tutti" | % 111
     fis4 ) -. -\! -\sfz r4 r2 | % 112
     r8 a4. ( -\< fis4 ) -. -\! -\sfz r4 | % 113
     r2 r8 f4. ( -\< | % 114
@@ -123,20 +126,21 @@
     <b b'>4 :32 <bes g'>2. ~ :32 ~ | % 121
     <bes g'>8 :64 <g es'>4. ~ :64 ~ <g es'>2 ~ :32 ~ | % 122
     <g es'>2 :32 -\! -\p r2 | % 123
-    r4 bes'2. :32 -> -\f -\< | % 124
+    r4 bes'2. :32 -> -\f -\< ^ "tutti"| % 124
     g2. :32 -> d'4 ~ :32 -> -\! -\ff | % 125
     d2. :32 bes4 ~ :32 | % 126
-    bes2 :32 -\markup{ \small\italic {dim.} } g2 ~ :32 | % 127
+    bes2 :32 \dimDynamic g2 ~ :32 | % 127
     g2. :32 es4 ~ :32 | % 128
     es2 :32 as,2 ~ :32 | % 129
     as2 :32 -\> f2 ~ :32 | \barNumberCheck #130
     f4 :32 c2. :32 | % 131
-    bes2. :32 -\! -\p r4 | % 132
+    bes2. :32 -\! -\p r4 | \break % 132
+    \set Staff.shortInstrumentName = #"Vln. Ia"
     R1 | % 133
     r4 f'''2 \upbow ^ "con sord." -\p -\< d4 ~ -\! -\> | % 134
     d4 r4 -\! r2 | % 135
     \ottava #1 | % 135
-    r4 b'2 -\markup{ \small\italic {simile} } gis4 ~ | % 136
+    r4 b'2 \simileDynamics gis4 ~ | % 136
     gis4 r4 r4 r8 bes8 ~ | % 137
     bes2. a4 ~ | % 138
     a4 r4 r2 | % 139

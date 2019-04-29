@@ -11,7 +11,7 @@
     c4 as2. ) -\! -\> | % 12
     R1*14 -\! | % 26
     d,1 ~  -\pp | % 27
-    d8 r8 d2. ~ -\markup{ \small\italic {cresc.} } | % 28
+    d8 r8 d2. ~ \crescDynamic | % 28
     d2. a'4 ~ | % 29
     a2 ~ -\< a8[ r16 bes32 ( c32] des4 ~ -> | \barNumberCheck #30
     des8 ) c4. -> bes2 ~ -> -\! -\f -\> | % 31
@@ -20,7 +20,7 @@
     bes1 ) -\! -\pp | % 34
     R1*9 | % 43
     r2 r4 gis4 ~ -\p | % 44
-    gis1 -\markup{ \small\italic {cresc.} } | % 45
+    gis1 \crescDynamic | % 45
     b1 ~ | % 46
     b8 -\< g4. ~ g8. gis32 ( a32 bes4 ~ -> -\! -\mf | % 47
     bes2 ~ \times 2/3 {
@@ -29,17 +29,17 @@
     d4 -\! -\p r4 r2 | % 49
     r2 r4 r8 f8 ~ -\mf -\< | \barNumberCheck #50
     f4 bes2 -\! -\> r4 -\! | % 51
-    bes4. -\markup{ \small\italic {simile, cresc.} } a8 ~ a4. r8 | % 52
+    \dSpace bes4. -\markup{ \small\italic {simile, cresc.} } a8 ~ a4. r8 | % 52
     bes4. as8 ~ as4 r8 as'8 ~ | % 53
     as4 f4 ~ f8 r8 g4 ~ -\f -\< | % 54
     g4. fis8 ~ -> -\! -\sfz -\> fis2 | % 55
-    r8 -\! -\markup{ \small\italic {simile, dim.} } g4. ~ g8 es4. ~ -> | % 56
+    \dSpace r8 -\! -\markup{ \small\italic {simile, dim.} } g4. ~ g8 es4. ~ -> | % 56
     es8 r8  f2. \paren -\mf | % 57
     bes,2 r2 | % 58
     R1*6 | % 64
     r4 r8 as8 ~ -\p -\< as4. g8 ~ -\! -\> | % 65
     g2 r2 -\! | % 66
-    r4 c4 ~ -\markup{ \small\italic {simile} } c8 bes4. | % 67
+    r4 c4 ~ \simileDynamics c8 bes4. | % 67
     R1 | % 68
     r4 des2 bes4 ~ | % 69
     bes4 r4 r2 | \barNumberCheck #70

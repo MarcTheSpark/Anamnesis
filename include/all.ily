@@ -7,6 +7,7 @@
 \include "oll-core/package.ily"
 
 \loadPackage edition-engraver
-\consistToContexts #edition-engraver Score.DrumStaff.DrumVoice
+% \consistToContexts #edition-engraver Score.DrumStaff.DrumVoice
+\consistToContexts #edition-engraver Score.Staff.Voice
 
 \include "../edition-engraver/all.ily"

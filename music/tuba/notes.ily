@@ -25,8 +25,8 @@
     bes2 ~ | % 95
     bes4 ges2. | % 96
     e1 \fermata -\! -\p | % 97
-    R1*21 | % 118
-    r4 r8 bes'8 ~ -\mf bes2 ~ -\markup{ \small\italic {cresc.} } | % 119
+    R1 * 7 R1 \fermataMarkup R1*13 | % 118
+    r4 r8 bes'8 ~ -\mf bes2 ~ \crescDynamic | % 119
     bes2 a2 ~ | \barNumberCheck #120
     a2 fis2 ~ | % 121
     fis4. gis8 ~ gis2 ~ | % 122
@@ -36,11 +36,11 @@
     g2 r2 | % 126
     r4 g2 -\fp -\< es4 ~ -\! -\ff | % 127
     es2. r4 | % 128
-    f2. -\markup{ \small\italic {dim.} } g4 ~ | % 129
+    f2. \dimDynamic g4 ~ | % 129
     g2 r4 bes4 ( ~ | \barNumberCheck #130
     bes4 f'2. ~ | % 131
     f2 ) r4 r8 g8 ( ~ -\p | % 132
     g2 es'2 ~ | % 133
     es2. ) r4 | % 134
-    R1*27 \bar "|."
+    R1*26 R1 \fermataMarkup \bar "|."
     }

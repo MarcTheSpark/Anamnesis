@@ -16,8 +16,8 @@
     R1*8 | % 64
     r2 r8 c,4. ~ -\p -\< | % 65
     c4 d2. -\! -\> | % 66
-    R1 | % 67
-    g2 -\! -\markup{ \small\italic {simile} } bes2 | % 68
+    R1 -\! | % 67
+    g2 \simileDynamics bes2 | % 68
     R1 | % 69
     r8 c,4. ~ c4 des4 ~ | \barNumberCheck #70
     des4 r4 r2 | % 71
@@ -39,7 +39,7 @@
         bes4 a4 as4 ~ }
     | % 103
     as1 ~ | % 104
-    as2 \fermata -\p r2 | % 105
+    as2 \fermata -\p r2 \fermata | % 105
     R1*7 | % 112
     r2 r4 r8 f'8 ~ -\fp -\< | % 113
     f2 ~ f8 des4. ~ -\! -\f -\> | % 114
@@ -53,5 +53,5 @@
     r4 es2. -\fp -\< | % 127
     bes2. -\! -\ff -\> g4 ~ | % 128
     g2. -\! -\p r4 | % 129
-    R1*32 \bar "|."
+    R1*31 R1 \fermataMarkup \bar "|."
     }

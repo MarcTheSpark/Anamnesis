@@ -3,7 +3,7 @@
     r4 ^ "con sord." g2 \upbow \p -\< bes4 ~ \downbow -\! -\> | % 2
     bes4 r4 -\! r2 | % 3
     R1 | % 4
-    r2 r4 es4 ~ -\markup{ \small\italic {simile} } | % 5
+    r2 r4 es4 ~ \simileDynamics | % 5
     es4 d2 r4 | % 6
     d2 \cresc bes2 | % 7
     r4 as4 ~ as8 f4. | % 8
@@ -16,6 +16,7 @@
     R1 | % 15
     r8 des4. bes2 ~ | % 16
     bes4 -\! -\pp r4 r2 | % 17
+    \set Staff.shortInstrumentName = #"Vln. II"
     R1*2 | % 19
     f2 ^ "tutti" -\p -\< ges2 -\! -\mf -\> | \barNumberCheck #20
     r2 -\! a2 ~ -\p -\< | % 21
@@ -28,12 +29,12 @@
       c1 ~ -\! -\mp -\> | % 26
       c2. -\! -\p c4 ~ -> -\< | % 27
       c2 des2 ( -> -\! -\mf | % 28
-      c1 ) -\markup{ \small\italic {dim.} } | % 29
+      c1 ) \dimDynamic | % 29
       gis1 ~ | \barNumberCheck #30
       gis4 bes2. ( | % 31
       c1 ) -\> | % 32
       des1 | % 33
-      d!1 -\! -\markup{ \small\italic {niente} } | % 34
+      d!1 \nienteDynamic | % 34
     }
     {
       s2 \trillWithFlat s2 \startTrillSpan |
@@ -49,8 +50,7 @@
     >>
     R1*2 | % 36
     bes,2 \upbow ^ "senza sord." ^ "tutti" -\p -\< g2 \downbow -\! -\> | % 37
-    r2 -\! r4 r8 d8 ~ ^\markup{ \small\italic {simile} } -\markup{
-        \small\italic {cresc. poco a poco} } | % 38
+    r2 -\! r4 r8 d8 ~ ^\markup{ \small\italic {simile} } -\markup{ \lower #2 \small\italic {cresc. poco a poco} } | % 38
     d4. f8 ~ f2 | % 39
     r2 r4 c'4 ~ | \barNumberCheck #40
     c4. bes8 ~ bes2 | % 41
@@ -68,8 +68,8 @@
     des4 r8 bes8 ~ bes4 as4 ~ | % 53
     as8 r8 as4 ~ as8 f4. | % 54
     r8 g4. ~ -\ff -\< g8 fis4. ~ -\! -\sfz -\> | % 55
-    fis4 r8 -\! g8 ~ -\markup{ \small\italic {simile} } g4. es8 ~ | % 56
-    es2 -\markup{ \small\italic {dim. poco a poco} } r8 f4. ~ | % 57
+    fis4 r8 -\! g8 ~ \simileDynamics g4. es8 ~ | % 56
+    \dSpace es2 -\markup{ \small\italic {dim. poco a poco} } r8 f4. ~ | % 57
     f4 bes,2 r4 | % 58
     f'2 bes2 | % 59
     r8 f4. ~ f4 es4 ~ | \barNumberCheck #60
@@ -80,12 +80,13 @@
     c8 ) -\! r8 r4 r2 | % 64
     r2 r4 r8 c8 ~ \paren \p | % 65
     c4 d2. | % 66
+    \set Staff.shortInstrumentName = #"Vln. IIa"
     R1*7 | % 73
     c2 :32 \dText p "cresc." d2 :32 | % 74
     c1 :32 | % 75
     d4 :32 cis2. :32 | % 76
     d2. :32 -\< es4 ~ :32 -> -\! -\mf | % 77
-    es1 ~ :32 -\markup{ \small\italic {dim.} } | % 78
+    es1 ~ :32 \dimDynamic | % 78
     es2 :32 c2 :32 | % 79
     bes2 ~ :32 bes8 :32 c4. :32 
     | \barNumberCheck #80
@@ -109,8 +110,9 @@
     \times 2/3  {
         d4 cis4 d4 }
     cis2 \fermata -\! -\p | % 97
-    R1*14 | % 111
-    fis1 :32 -\fp -\> | % 112
+    \set Staff.shortInstrumentName = #"Vln. II"
+    R1*7 R1 \fermataMarkup R1*6 | % 111
+    fis1 :32 -\fp -\> ^ "senza sord." ^ "tutti" | % 112
     r2 -\! fis2 ~ :32 -\fp -\> | % 113
     fis2 :32 r2 -\! | % 114
     r2 r8 <cis, gis'>4. ~ :64 ~ \dText fp "cresc." ^ "div." | % 115
@@ -122,19 +124,20 @@
     <des des'>2 :32 <d bes'>2 ~ :32 ~ | % 121
     <d bes'>2. :32 <bes g'>4 ~ :32 ~ | % 122
     <bes g'>1 :32 -\p | % 123
-    r4 -\! bes'2. :32 -> -\f -\< | % 124
+    r4 -\! bes'2. :32 -> -\f -\< ^ "tutti" | % 124
     g2. :32 -> d'4 ~ :32 -> -\! -\ff | % 125
     d2. :32 bes4 ~ :32 | % 126
-    bes2 :32 -\markup{ \small\italic {dim.} } g2 ~ :32 | % 127
+    bes2 :32 \dimDynamic g2 ~ :32 | % 127
     g2. :32 es4 ~ :32 | % 128
     es2 :32 as,2 ~ :32 | % 129
     as2 :32 -\> f'2 ~ :32 | \barNumberCheck #130
     f4 :32 -\p r4 r2 | % 131
-    r2 -\! r2 | % 132
+    \set Staff.shortInstrumentName = #"Vln. IIa"
+    R1 | % 132
     r2 ^ "con sord." c''2 ~ \upbow -\p -\< | % 133
     c8 d,4. ~ -\! -\> d2 | % 134
     R1 -\! | % 135
-    c'2 -\markup{ \small\italic {simile} } d,2 ~ | % 136
+    c'2 \simileDynamics d,2 ~ | % 136
     d8 r8 r4 r2 | % 137
     r2 r4 f4 ~ | % 138
     f4. ges8 ~ ges2 | % 139

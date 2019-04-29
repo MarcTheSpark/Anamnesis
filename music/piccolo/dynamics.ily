@@ -8,7 +8,7 @@ s2 s4 s8 -\! s8 -\mp -\< | \barNumberCheck #10
 s1 | % 11
 s4 s2 -\! -\> s8 s8 -\!| % 12
 s1*14 | % 26
-s1 -\markup{ \dynamic pp \small\italic {cresc.}} | % 27
+s1 \crescDynamic | % 27
 s8 s8 s2. | % 28
 s2. s4 | % 29
 s2 -\< s8 s16 s32 s32 s4 | \barNumberCheck #30
@@ -17,7 +17,7 @@ s2. s8 s8 | % 32
 s2 s2 | % 33
 s1  -\! -\pp |
 s1*9 | % 43
-s2 s4 s4 -\markup{ \dynamic p \small\italic {cresc.}}  | % 44
+s2 s4 s4 \crescDynamic  | % 44
 s1*2 | % 46
 s8 -\< s4. s8. s32 s32 s4 -\! -\mf | % 47
 s2 \times 2/3 {
@@ -36,7 +36,7 @@ s2  s2 | % 58
 s1*6 | % 64
 s4 s8 s8 -\p -\< s4. s8 -\! -\> | % 65
 s2 s2 -\! | % 66
-s4 s4 -\markup{ \small\italic {simile} } s8 s4. | % 67
+s4 s4 \simileDynamics s8 s4. | % 67
 s1 | % 68
 s4 s2 s4 | % 69
 s4 s4 s2 | \barNumberCheck #70
